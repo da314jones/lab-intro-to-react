@@ -4,7 +4,7 @@ import "./UserProfile.css";
 function UserProfile() {
     return (
         <div className="user-profile">
-            <img src="assets/profile.png" />
+            <img src="/profile.png" />
             <div className="user-info">
             <p className="user">Jordan Walke</p>
             <p className="title">React Creator</p>
