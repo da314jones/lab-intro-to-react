@@ -1,0 +1,23 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: .25 1fr 1fr; 
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "nav-bar nav-bar nav-bar"
+    "user-profile user-profile contacts"
+    "posts posts posts";
+}
+
+.user-profile {
+  grid-area: 1 / 1 / 2 / 3; 
+}
+
+.contacts {
+  grid-area: 1 / 3 / 3 / 4; 
+}
+
+.posts {
+  grid-area: 2 / 1 / 4 / 3;
+}

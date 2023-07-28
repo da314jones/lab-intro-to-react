@@ -1,0 +1,21 @@
+.contacts {
+  grid-area: 2 / 3 / 4 / 4;
+  display: grid;
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+  height: 96.3%;
+  grid-area: contacts;
+  flex-direction: rows;
+  text-align: center;
+}
+
+
+contacts img {
+  align-items: flex-start;
+}
+
+.contacts-title {
+  font-weight: bold;
+}
