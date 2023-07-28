@@ -4,7 +4,7 @@ import "./ContactUserCard.css"
 function ContactUserCard() {
     return (
         <div className="contact-user-card">
-            <img src="/assets/profile.png" />
+            <img src="assets/profile.png" />
             <div className="contact-user-info">
             <p className="contact-user-name">Jordan Walke</p>
             <p className="contact-title">React Creator</p>
